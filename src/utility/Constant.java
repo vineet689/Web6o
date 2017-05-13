@@ -1,12 +1,12 @@
 package utility;
 
 public class Constant {
-	    public static final String URL = "https://mycontactcenter-login.3ccloud.com/logging/3cphone.html#/cti/login";
+	    public static final String URL = "https://-login.3ccloud.com/logging/3cphone.html#/cti/login";
 	    
 	    public static final String Username = "vsharma2@Boarding";
 	    public static final String Password ="webastra";
-		public static final String Path_TestData = "F://Data//Workspace//Web6O//src//testData//";
-		//E:\Data\Workspace\OnlineStore\src\testData\TestData.xlsx
+		public static final String Path_TestData = "F://Data//Workspace2//Web6O//src//testData//";
+		
 		public static final String File_TestData = "1TestData.xlsx";
 		
 		//Test Data Sheet Columns
@@ -24,5 +24,5 @@ public class Constant {
 		public static final int Col_Phone = 11;
 		public static final int Col_Email = 12;
 		public static final int Col_Result = 13;   
-		public static final String Path_ScreenShot = "F://Data//Workspace//Web6O//src//Screenshots//";
+		public static final String Path_ScreenShot = "F://Data//Workspace2//Web6O//src//Screenshots//";
 	}
