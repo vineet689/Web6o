@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="utility.Listener"/>
+  </listeners>
+  <test name="Random Sanity Test Demo(failed)">
+    <classes>
+      <class name="testCases.Framework_001">
+        <methods>
+          <include name="VerificationDuringCall"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- testCases.Framework_001 -->
+      <class name="testCases.Framework_002">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="VerificationBeforeCall"/>
+        </methods>
+      </class> <!-- testCases.Framework_002 -->
+    </classes>
+  </test> <!-- Random Sanity Test Demo(failed) -->
+</suite> <!-- Failed suite [Suite] -->
